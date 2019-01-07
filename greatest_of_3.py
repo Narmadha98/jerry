@@ -4,4 +4,4 @@ if(a1>b1):
 if(b1>c1):
   print(b1)
 else:
-  print(c)
+  print(c1)
