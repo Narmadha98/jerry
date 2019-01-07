@@ -4,6 +4,6 @@ if(yr%4==0):
     if(yr%400==0):
       print("yes")
     else:
-      print("No")
+      print("no")
 else:
-  print("No")
+  print("no")
