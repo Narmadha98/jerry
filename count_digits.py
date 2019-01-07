@@ -1,5 +1,4 @@
 n=int(input())
-s=0
 r=0
 c=0
 while(n>0):
