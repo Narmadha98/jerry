@@ -1,3 +1,3 @@
 n=int(input())
-s=input()
-print(s*n)
+print("Hello/n"*n)
+#hello 3 times
