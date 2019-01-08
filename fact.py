@@ -4,7 +4,7 @@ def fact(m):
         f=f*i
     return f
 m=int(input())
-if(m>0):
+if(m>=0):
     x=fact(m)
     print(x)
 else:
