@@ -7,4 +7,4 @@ else:
             if(i*n==f):
                     print(i*n)
             else:
-                    print(i*n,end="*")
+                    print(i*n,end=" ")
