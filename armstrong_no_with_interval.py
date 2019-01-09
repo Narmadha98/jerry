@@ -1,4 +1,5 @@
 n,m=map(int,input().split())
+s2=""
 for i in range(n+1,m):
     temp=i
     s=0
@@ -7,5 +8,8 @@ for i in range(n+1,m):
         s+=re*re*re
         i=i//10
     if(temp==s):
-        print(s,end=" ")
-print(end="\n")
+        s2=s2+str(s)+" "
+        s=0
+    else:
+        s=0
+print(s2.strip())
