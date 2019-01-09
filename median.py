@@ -5,7 +5,6 @@ a=0
 b=len(s)-1
 if(len(s)%2==1):
     mid=(a+b)//2
-    mid+=1
     print(l[mid])
 else:
     c=n-1//2
