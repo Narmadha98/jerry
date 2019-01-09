@@ -1,11 +1,9 @@
-#include<cstdio>
-#include <iostream>
-#include <algorithm>
-using namespace std;
-int main() {
-    int n, a, i;
+#include <stdio.h>
+ 
+int main(void) {
+	   int n, a, i;
     int counts[100000] = {0};
-
+ 
     scanf("%d", &n);
     for (i = 0; i < n; i++){
         scanf("%d", &a);
@@ -17,6 +15,6 @@ int main() {
             counts[i]--;
         }
     printf("\n");
-    
+ 
     return 0;
 }
