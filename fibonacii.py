@@ -1,5 +1,5 @@
 n=int(input())
-t1=0
+t1=1
 t2=1
 s=""
 for i in range(1,n+1):
