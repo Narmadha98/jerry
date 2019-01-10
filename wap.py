@@ -1,5 +1,5 @@
 c,d=map(int,input().split())
-c,d=d,c
+c=c+d
+d=c-d
+c=c-d
 print(str(c)+" "+str(d))
-#mycode
-
