@@ -1,3 +1,5 @@
-a,b=map(int,input().split())
-a,b=b,a
-print(str(a)+" "+str(b))
+c,d=map(int,input().split())
+c,d=d,c
+print(str(c)+" "+str(c))
+#mycode
+
