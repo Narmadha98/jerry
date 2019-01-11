@@ -9,7 +9,8 @@ while(i<len(s)):
         a=a+" "+r
         i=i+2
     else:
-        a=a+s[i]
+        d=s[i].lower()
+        a=a+d
         i=i+1
 print(a)
         
