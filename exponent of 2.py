@@ -1,4 +1,4 @@
-def isPowerOf2(n):
+def Power(n):
     if(n==0):
         return False
     else:
@@ -8,12 +8,8 @@ def isPowerOf2(n):
             n=n/2
     return True
                 
-    
-
-
-
 n=int(input())
-if(isPowerOf2(n)):
+if(Power(n)):
     print("yes")
 else:
     print("no")
