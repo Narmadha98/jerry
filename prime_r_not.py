@@ -8,6 +8,6 @@ if(c==1):
 	print("yes")
 else:
 	print("no")
-#prime
+#prime_or_not _concept
 	
 	
