@@ -9,6 +9,6 @@ def isogram(s):
 s=input()
 a=isogram(s)
 if(a=="True"):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
