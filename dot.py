@@ -1,3 +1,3 @@
-s="narmadha"
+s=input()
 print(s+".")
 #mycodedot
