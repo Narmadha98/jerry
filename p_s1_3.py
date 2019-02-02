@@ -1,20 +1,23 @@
-x,y=map(str,input().split())
-i=len(x)
-j=len(y)
-c=0
-if(i<j):
-    m=i
-    ma=y
-else:
-    m=j
-    ma=x
-for i in range(m):
-    if(x[i]==y[i]):
-        c=c+1
+a,b=map(str,input().split())
+d=len(a)-len(b)
+d=abs(d)
+a=list(a)
+b=list(b)
+i=0
+j=0
+while  i<len(a) and j<len(b):
+    if(a[i]==b[j]):
+        i=i+1
+        j=j+1
     else:
-        break
-#print(ma)
-#print(c)
-print(len(ma)-c)
-
+        if(len(a)>len(b)):
+            a.pop(i)
+        else:
+            i=i+1
+            j=j+1
+            d=d+1
+print(d)
+            
+        
+    
 
