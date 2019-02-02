@@ -23,6 +23,7 @@ for i in range(min1):
     if(z==0):
         break
 p=set(p)
+p=sorted(p)
 m=""
 for i in p:
     m=m+i
