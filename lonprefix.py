@@ -27,7 +27,7 @@ m=""
 for i in p:
     m=m+i
 print(m)
-
+#myveryowncodexmvlxkvjm 
 
             
             
