@@ -1,7 +1,7 @@
 def rightarr(l,k,n):
     for i in range(k):
         rightrotone(l,n)
-    print(l)
+    print(*l)
 def rightrotone(l,n):
     temp=l[n-1]
     for i in range(n-1 ,0,-1):
