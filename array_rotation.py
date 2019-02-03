@@ -3,4 +3,5 @@ l=list(map(int,input().split()))
 t=[]
 t=l[-k:]
 del l[-k:]
-print(t+l)
+s=t+l
+print(*s)
