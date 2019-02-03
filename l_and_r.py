@@ -13,4 +13,4 @@ for i in range(n+1,m):
     if(keerthi==1):
         s=s+str(i)+" "
 print(s.strip())
-        
+#prime between l and r
