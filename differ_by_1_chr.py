@@ -4,7 +4,7 @@ k=int(k)
 t=Counter(s1)-Counter(s2)
 x=t.values()
 x=list(x)
-if(x[0]==k):
+if(sum(x)==k):
     print('yes')
 else:
     print('no')
