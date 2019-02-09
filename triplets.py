@@ -8,5 +8,5 @@ for i in range(n):
             if a[i]< a[j] and a[j]<a[k]:
                   x=[a[i],a[j],a[k]]
                   c.append(x)
-print(len(c)-1)
+print(len(c))
 
