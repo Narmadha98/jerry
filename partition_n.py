@@ -1,5 +1,6 @@
 n,a,b=map(int,input().split())
-if n%2==0:
+c=a+b
+if n%c==0:
     print("YES")
 else:
     print("NO")
