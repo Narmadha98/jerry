@@ -1,0 +1,7 @@
+n=int(input())
+a=list(map(int,input().split()))
+w=set(a)
+w=list(w)
+w=sorted(w)
+#print(w)
+print(w[1])
