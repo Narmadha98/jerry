@@ -1,0 +1,11 @@
+n=int(input())
+x=1
+l=[] 
+while(1):
+    x=x*2
+    if(x<=n):
+        l.append(abs(x-n))
+    else:
+        break
+l.append(abs(x-n))
+print(min(1))
