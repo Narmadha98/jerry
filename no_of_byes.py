@@ -8,4 +8,4 @@ while(1):
     else:
         break
 l.append(abs(x-n))
-print(min(1))
+print(min(l))
