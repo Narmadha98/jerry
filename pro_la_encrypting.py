@@ -1,25 +1,13 @@
-a=input()
-b=input()
-i=0
-n=len(a)
-sp=""
-while(i<n):
-        k=ord(a[i])-97+1
-        l=ord(b[i])-97+1
-        if k==l:
-            w=k+97-1
-            sp=sp+chr(w)
-        elif(k+l<=26):
-            g=(k+l)+97-1
-            k=chr(g)
-            sp=sp+k
-        else:
-            y=(k+l)%26
-            z=y+97-1
-            k=chr(z)
-            sp=sp+k
-        i=i+1
-print(sp)
-        
-    
+s=input()
+x=input()
+a=""
+for i in range(len(s)):
+    k=ord(x[i])-97+1
+    if(ord(s[i])>=65 and ord(s[i])<=90):
+            m=chr(((ord(s[i])-65+k)%26)+65)
+            a=a+m
+    elif(ord(s[i])>=97 and ord(s[i])<=122):
+            n=chr(((ord(s[i])-97+k)%26)+97)
+            a=a+n
+print(a)
         
