@@ -6,7 +6,6 @@ sp=""
 while(i<n):
         k=ord(a[i])-97+1
         l=ord(b[i])-97+1
-        print(k,l)
         if k==l:
             w=k+97-1
             sp=sp+chr(w)
