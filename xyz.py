@@ -17,9 +17,7 @@ for i in range(0,n-1):
 		a.append(c)
 		c=0
 		f=0
-if i==n-1:
-    a.append(x)
+a.append(x)
 for i in range(len(a)):
     a[i]=a[i]+1
 print(max(a))
-    
