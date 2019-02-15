@@ -1,7 +1,8 @@
-input()
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
-c=list(map(int,input().split()))
-a.extend(b)
-a.extend(c)
-print(sorted(a))
+k=int(input())
+w=[]
+for i in range(k):
+    l=list(map(int,input().split()))
+    for j in l:
+        w.append(j)
+s=sorted(w)
+print(*s)
