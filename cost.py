@@ -19,7 +19,4 @@ for i in range(0,len(mins)):
 while(i+1<len(maxs)):
     d=d+ord(maxs[i+1])-96
     i=i+1
-if d==1109:
-    print(1117)
-else:
-    print(d)
+print(d)
