@@ -5,4 +5,4 @@ if a==b[::-1]:
     print('yes')
 else:
     print('no')
-#hi guviii:::::
+#hiabcdefghijklmnopqrstuv;klmx;kxmvl;xmc
