@@ -8,4 +8,4 @@ for i in l:
 for i in range(0,len(c)-1):
   if c[i]<c[i+1]:
     co=co+1
-print(c)
+print(co)
