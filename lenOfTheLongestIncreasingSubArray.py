@@ -17,3 +17,4 @@ for i in range(s-1):
 if flag==1:
     p.append(lencounter+1)
 print(max(p))
+#hi guviiiii>>>>
