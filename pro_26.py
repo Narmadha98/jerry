@@ -1,20 +1,11 @@
-c=1
-fg=0
 n=int(input())
 l=list(map(int,input().split()))
-x=[]
-for i in range(n-1):
-  if l[i]<=l[i+1]:
-    x.append(1)
-  else:
-    x.append(0)
-for i in x:
-  if fg<c:
-    fg=c
-  if i==1:
-    c=c+1
-  else:
-    c=1
-if fg<c:
-  fg=c
-print(fg)
+c=[]
+co=1
+for i in l:
+  if i not in c:
+    c.append(i)
+for i in range(0,len(c)-1):
+  if c[i]<c[i+1]:
+    co=co+1
+print(c)
