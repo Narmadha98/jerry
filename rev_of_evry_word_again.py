@@ -9,5 +9,5 @@ for i in range(0,len(l)):
 sp=""
 for i in w:
     sp=sp+i+" "
-print(sp)
+print(sp.strip())
                 
