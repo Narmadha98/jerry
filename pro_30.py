@@ -20,6 +20,4 @@ else:
             if(int(sp)%8==0):
                 print('yes')
                 sys.exit()
-print('no')                
-            
-    
+print('no')
