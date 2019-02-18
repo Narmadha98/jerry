@@ -9,6 +9,7 @@ for i in range(n):
     o=str(i)
     if(n==i+digsum(o)):
         f.append(i)
+print(len(f))
 if len(f)>0:
     for i in f:
         print(i)
