@@ -13,5 +13,3 @@ print(len(f))
 if len(f)>0:
     for i in f:
         print(i)
-else:
-    print(-1)
