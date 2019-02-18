@@ -8,6 +8,7 @@ def comb(n,k):
 n=input()
 if int(n)%8==0:
     print('yes')
+    sys.exit()
 else:
     for k in range(len(n)-1,0,-1):
         s=comb(n,k)
