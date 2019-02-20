@@ -5,6 +5,6 @@ a=list(combinations(s,len(s)-1))
 for i in  range (len(a)):
     p=a[i]
     if p==p[::-1]:
-        print('yes')
+        print('YES')
         sys.exit()
-print('no')
+print('NO')
